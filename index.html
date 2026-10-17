@@ -31,8 +31,7 @@ header {
 
 h1 {
   color: #54ffb0;
-  font-size: 34px;
-  margin-bottom: 10px;
+  font-size: 32px;
 }
 
 .subtitle {
@@ -103,57 +102,71 @@ footer {
 
   <div class="card">
     <h2>📖 Dictionary</h2>
-    <p>Find word meanings using the main dictionary.</p>
-    <button onclick="goHome()">OPEN</button>
+    <p>Look up words using your main dictionary page.</p>
+    <button onclick="window.location.href='./index.html'">
+      OPEN DICTIONARY
+    </button>
   </div>
 
   <div class="card">
     <h2>🌍 Translation</h2>
-    <p>Translate words and text into other languages.</p>
-    <button onclick="goHome()">OPEN</button>
+    <p>Return to the dictionary to use translation tools.</p>
+    <button onclick="window.location.href='./index.html'">
+      OPEN TRANSLATION
+    </button>
   </div>
 
   <div class="card">
     <h2>🔊 Pronunciation</h2>
-    <p>Use the browser's speech feature to hear words.</p>
-    <button onclick="goHome()">OPEN</button>
+    <p>Return to the dictionary to hear words aloud.</p>
+    <button onclick="window.location.href='./index.html'">
+      OPEN PRONUNCIATION
+    </button>
   </div>
 
   <div class="card">
     <h2>🔄 Synonyms</h2>
-    <p>Discover words with similar meanings.</p>
-    <button onclick="goHome()">OPEN</button>
+    <p>Explore words with similar meanings.</p>
+    <button onclick="window.location.href='./index.html'">
+      OPEN SYNONYMS
+    </button>
   </div>
 
   <div class="card">
     <h2>↔️ Antonyms</h2>
     <p>Explore words with opposite meanings.</p>
-    <button onclick="goHome()">OPEN</button>
+    <button onclick="window.location.href='./index.html'">
+      OPEN ANTONYMS
+    </button>
   </div>
 
   <div class="card">
     <h2>✍️ Sentence Builder</h2>
-    <p>Return to the dictionary to use its sentence tools.</p>
-    <button onclick="goHome()">OPEN</button>
+    <p>Return to your dictionary's sentence tools.</p>
+    <button onclick="window.location.href='./index.html'">
+      OPEN SENTENCE BUILDER
+    </button>
   </div>
 
   <div class="card">
     <h2>🧠 Word Quiz</h2>
-    <p>A quiz page can be added as a future feature.</p>
-    <button onclick="alert('Word Quiz is coming soon!')">
-      COMING SOON
+    <p>Test your vocabulary with a simple quiz.</p>
+    <button onclick="window.location.href='./quiz.html'">
+      OPEN QUIZ
     </button>
   </div>
 
   <div class="card">
     <h2>🕘 Search History</h2>
-    <p>Return to the main page to access search history.</p>
-    <button onclick="goHome()">OPEN</button>
+    <p>Return to your dictionary to access search history.</p>
+    <button onclick="window.location.href='./index.html'">
+      OPEN HISTORY
+    </button>
   </div>
 
 </div>
 
-<button class="back" onclick="goHome()">
+<button class="back" onclick="window.location.href='./index.html'">
   ⬅ BACK TO DICTIONARY
 </button>
 
@@ -162,12 +175,5 @@ footer {
 </footer>
 
 </div>
-
-<script>
-function goHome() {
-  window.location.href = "index.html";
-}
-</script>
-
 </body>
-</html>
+  </html>
